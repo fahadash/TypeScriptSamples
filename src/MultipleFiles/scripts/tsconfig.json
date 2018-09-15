@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es5",
+    "lib": ["es5", "dom", "es2016"]
+  },
+  "compileOnSave": true,
+  "files": [ "./app.ts", "./decorator.ts" ]
+}

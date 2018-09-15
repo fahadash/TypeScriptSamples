@@ -12720,11 +12720,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\community\\TypeScriptSamples\\SingleFile\\SingleFile.csproj",
+      "projectUniqueName": "C:\\Dev\\community\\TypeScriptSamples\\src\\SingleFile\\SingleFile.csproj",
       "projectName": "SingleFile",
-      "projectPath": "C:\\Dev\\community\\TypeScriptSamples\\SingleFile\\SingleFile.csproj",
+      "projectPath": "C:\\Dev\\community\\TypeScriptSamples\\src\\SingleFile\\SingleFile.csproj",
       "packagesPath": "C:\\Users\\fashfaque\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\community\\TypeScriptSamples\\SingleFile\\obj\\",
+      "outputPath": "C:\\Dev\\community\\TypeScriptSamples\\src\\SingleFile\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
