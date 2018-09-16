@@ -9,5 +9,5 @@
     "module": "none"
   },
   "compileOnSave": true,
-  "files": [ "./app.ts", "./decorator.ts" ]
+  "files": [ "./app.ts", "./decorator.ts", "./styler.ts" ]
 }
