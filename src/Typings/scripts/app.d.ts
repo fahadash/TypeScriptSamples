@@ -1,0 +1,1 @@
+﻿declare function setText(element: HTMLElement, text: string) : any;
