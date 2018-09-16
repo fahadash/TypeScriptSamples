@@ -1,4 +1,4 @@
-﻿import { Decorator } from "./decorator";
+﻿
 
 function app() {
     let title = <HTMLDivElement>document.getElementById("title");

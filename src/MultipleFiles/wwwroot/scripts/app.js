@@ -1,10 +1,7 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var decorator_1 = require("./decorator");
 function app() {
     var title = document.getElementById("title");
     var body = document.getElementById("body");
-    var decorator = new decorator_1.Decorator();
+    var decorator = new Decorator();
     decorator.Apply(title, body);
 }
 //# sourceMappingURL=app.js.map

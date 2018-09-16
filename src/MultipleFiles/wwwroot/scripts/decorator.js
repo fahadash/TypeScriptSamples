@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 var Decorator = /** @class */ (function () {
     function Decorator() {
     }
@@ -9,5 +7,4 @@ var Decorator = /** @class */ (function () {
     };
     return Decorator;
 }());
-exports.Decorator = Decorator;
 //# sourceMappingURL=decorator.js.map
