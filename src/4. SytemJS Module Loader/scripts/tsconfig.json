@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es5",
+    "lib": [ "es2016", "dom" ],
+    "baseUrl": "scripts/"
+  },
+  
+  "compileOnSave": true,
+  "exclude": ["node_modules", "wwwroot"]
+}
