@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <script src="lib/system.js"></script>
+
+</head>
+<body>
+    <h2>Using TypeScript classes from Javascript (ECMASCRIPT 5)</h2>
+    <div id="classname"></div>
+    <div id="method"></div>
+    <div id="property"></div>
+    <script>
+        var config = {
+            baseURL: '/scripts',
+            packages: {
+                "app": {
+                    main: "app.js",
+                    defaultExtension: "js"
+                }
+            }
+        };
+        System.config(config);
+
+        document.body.onload = function () {
+            System.import("app").then(function (module) {
+                var obj = new module.TestClass();
+
+                document.getElementById("classname").innerHTML = "Type name of the object created by ES5 Code is : " + typeof (obj);
+                document.getElementById("method").innerHTML = obj.method();
+                document.getElementById("property").innerHTML = obj.Property;
+            });
+        };
+    </script>
+</body>
+</html>
