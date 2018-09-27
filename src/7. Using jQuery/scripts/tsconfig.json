@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "noEmitOnError": true,
+        "removeComments": false,
+        "sourceMap": true,
+        "target": "es5"
+    },
+    "compileOnSave": true,
+    "exclude": [
+        "node_modules",
+        "wwwroot",
+        "*.d.ts"
+    ],
+    "files": ["app/app.ts"],
+    "typeAcquisition": {
+        "enable": false,
+        "include": ["scripts/typings/jquery/index.d.ts"]
+    }
+}
