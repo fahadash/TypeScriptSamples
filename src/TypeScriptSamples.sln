@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5. Using TS Classes From JS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6. Using Generics", "6. Using Generics\6. Using Generics.csproj", "{D9722C92-F08C-4E2E-A895-AEDB1F2CAAAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Using jQuery", "7. Using jQuery\7. Using jQuery.csproj", "{A3004813-55E0-4F5D-8594-6ABC7007EACE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7. Using jQuery", "7. Using jQuery\7. Using jQuery.csproj", "{A3004813-55E0-4F5D-8594-6ABC7007EACE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. Using Angular", "8. Using Angular\8. Using Angular.csproj", "{1C27CC3C-CFD0-41BC-9B08-E3B211326B24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{A3004813-55E0-4F5D-8594-6ABC7007EACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3004813-55E0-4F5D-8594-6ABC7007EACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3004813-55E0-4F5D-8594-6ABC7007EACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C27CC3C-CFD0-41BC-9B08-E3B211326B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C27CC3C-CFD0-41BC-9B08-E3B211326B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C27CC3C-CFD0-41BC-9B08-E3B211326B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C27CC3C-CFD0-41BC-9B08-E3B211326B24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
